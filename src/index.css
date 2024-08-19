@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle{
+    padding: 10px;
+    width: 1503px;
+    height: 1503px;
+    border-radius: 100%;
+    background: #fff;
+    position: absolute;
+    left: 338px;
+    top: -528px;
+    z-index: -99;
+}
+body{
+    background-color: #FAF6EF;
+}
