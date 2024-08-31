@@ -1,9 +1,10 @@
 import React from 'react'
+import OthersPage from '../layer/OthersPage'
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <OthersPage item={'Contact'}/>   
     </div>
   )
 }

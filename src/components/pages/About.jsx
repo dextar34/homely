@@ -1,9 +1,10 @@
 import React from 'react'
+import OthersPage from '../layer/OthersPage'
 
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <OthersPage item={'About'}/>      
     </div>
   )
 }

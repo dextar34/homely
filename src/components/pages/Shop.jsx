@@ -1,9 +1,10 @@
 import React from 'react'
+import OthersPage from '../layer/OthersPage'
 
 const Shop = () => {
   return (
     <div>
-      <h1>Shop</h1>
+      <OthersPage item={'Shop'}/>   
     </div>
   )
 }
