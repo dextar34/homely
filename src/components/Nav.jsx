@@ -45,7 +45,7 @@ const Nav = ({ className }) => {
           <div className="navItems ">
             <ul className="flex text-base text-black capitalize items-center gap-x-16 justify-between">
             {navData.map((data, index) => (
-                 <div className="">
+                 <div className="hover:underline transition-all duration-300">
                     <List key={index} href={data.path} item={data.item} />
                     <List className={'text-3xl text-purple-800 font-bold'} key={index} href={data.path} item={data.icon} />
                  </div>

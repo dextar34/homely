@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const List = ({item,href,className}) => {
   return (
-    <Link className={`${className}`} to={href}>
+    <Link className={`${className} `} to={href}>
         <li>{item}</li>
     </Link>
   )
